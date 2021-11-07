@@ -1,0 +1,114 @@
+version: '2.0'
+
+stories:
+  - story: greet and subscribe
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: subscribe
+      - action: newsletter_form
+      - active_loop: newsletter_form
+
+  - story: sales
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: sale
+      - action: utter_sale
+  
+  - story: sales 
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: sale
+      - action: utter_sale
+      
+   
+  - story: help
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: help
+      - action: utter_help
+
+  - story: path about spent money
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: spent_money
+      - action: action_spent_money
+
+  - story: path about last order
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: last_order
+      - action: action_last_order
+
+  - story: path about shipping address
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: shipping_address
+      - action: action_shipping_address
+
+  - story: path about track order
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: track_order
+      - action: action_track_order
+
+  - story: path about last order
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: last_order
+      - action: action_last_order
+
+  - story: path about previous orders
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: previous_orders
+      - action: action_previous_orders
+
+  - story: path about product categories
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: products_category
+      - action: action_products_category
+
+  - story: path about shoes products
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: product_shoes
+      - action: action_product_shoes
+
+  - story: path about gadgets products
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: product_gadgets
+      - action: action_product_gadgets
+
+  - story: path about clothing products
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: product_clothing
+      - action: action_product_clothing
+
+  - story: path about cart
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: cart
+      - action: action_cart
+
+
+
+
+

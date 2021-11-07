@@ -1,0 +1,19 @@
+responses:
+   utter_greet:
+       - text: "Hello! I am Myntra Voice Bot, How can I help?"
+       - text: "Hello, Thank you for choosing Myntra, I am Myntra Voice-bot, How can I help?"
+   utter_ask_email:
+       - text: "What is your email address?"
+   utter_subscribed:
+       - text: "Check your inbox at {email} in order to finish subscribing to the newsletter!"
+       - text: "You're all set! Check your inbox at {email} to confirm your subscription."
+    utter_help:
+        - text: "We are delighted to assist you. You can inquire about upcoming sales, your account balance, purchases made, and special offers on mobile phones, cosmetics, and apparel, among other things. If you require personalised assistance, please contact us at support@myntra.com. We'd be delighted to assist you. :) "   
+    utter_sale:
+        - text: "Myntra Big Fashion Festival 2021 will start in India on 1st December and will end on 15th Decemeber."
+    utter_mobiles:
+        - text: "A lot of companies will be launching new smartphones during the sale. These brands include Motorola, Oppo, Poco, Realme, Samsung, and Vivo. You will get great deals, huge discounts. Stay tuned for Big Billion Days"
+    utter_clothes:
+        - text: "20% flat off on Zara and other clothing brands. Cashbacks, deals and what not in Big Billion Days!"
+    utter_cosmetics:
+        - text: "Lakme will offer the best ever discounts. Stay tuned!"

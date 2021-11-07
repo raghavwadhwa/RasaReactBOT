@@ -1,0 +1,119 @@
+version: "2.0"
+
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hey!
+      - Hallo
+      - Good day
+      - Good morning
+
+  - intent: subscribe
+    examples: |
+      - I want to get the newsletter
+      - Can you send me the newsletter?
+      - Can you sign me up for the newsletter?
+      - I want to subscribe
+
+  - intent: inform
+    examples: |
+      - My email is example@example.com
+      - random@example.com
+      - Please send it to anything@example.com
+      - Email is something@example.com
+
+  - intent: help
+    examples: |
+      - I want to contact with the customer care
+      - I want to speak to a representative
+      - I want help 
+      - I have a query 
+      - Please help
+      - I want to speak to a human
+
+  - intent: sale
+    examples: |
+      - when is the next sale coming ?
+      - when are big billion days coming ?
+      - are any sales live on myntra ?
+      - tell the time of next sales
+      - next sale happening when are
+      - discounts on myntra
+      - cashbacks and rewards on myntra
+
+  # dynamic intents
+
+  - intent: spent_money
+    examples: |
+      - How much money have I spent on myntra ?
+      - my spendings on myntra
+
+  # orders
+
+  - intent: last_order # from last oder id
+    examples: |
+      - What was the last thing I ordered ?
+      - Show me my last orders
+      - tell me the last thing I ordered ?
+
+  - intent: previous_orders # from mapping table
+    examples: |
+      - Show my all previous orders    
+      - What all I have ordered on myntra ?
+      - Show what have I ordered on myntra till now ?
+
+  - intent: track_order # from last checkpoint
+    examples: |
+      - When will I recieve my order ?
+      - Date of receiving my parcel 
+      - When will my order reach to me ?
+      - I want to track my order
+
+  - intent: shipping_address # from shipping address
+    examples: |
+      - What is my current shipping address ?
+      - Whats my address ?
+      - can you plase tell my shipping address ?
+
+  # products
+
+  - intent: products_category # from product_category
+    examples: |
+      - What are the types of products you sell ?
+      - What do you sell ?
+      - What can I buy ?
+      - Whats in your inventory ?
+
+  - intent: product_shoes
+    examples: |
+      - Do you sell shoes ?
+      - can you show me shoes ?
+      - What type of shoes do you sell ?
+      - can I buy shoes from myntra ?
+      - Please show diffrent kinds of shoes 
+      - Please show adidas shoes 
+      - plese show reebok shoes
+
+  - intent: product_gadgets
+    examples: |
+      - Do you sell gadgets ?
+      - What type of gadgets do you sell ?
+      - Please show latest gadgets ?
+      - can I buy gadgets from myntra ?
+
+  - intent: product_clothing
+    examples: |
+      - Do you sell clothes ?
+      - Can you please show clothes ?
+      - What type of clothes do you sell ?
+      - show clothes
+      - can I buy clothes from myntra ?
+
+  # cart
+  - intent: cart
+    examples: |
+      - What are the things in my cart ?
+      - products in my cart 
+      - Whats in my wishlist ?  
+      - can you show the items that are in my cart ?
